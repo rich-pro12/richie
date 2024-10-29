@@ -48,5 +48,42 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
 ![foto](https://raw.githubusercontent.com/rich-pro12/foto1/b1a6784c360da5e777d3ba1d69b192d1379f21cc/Screenshot%202024-10-30%20000629.png)
 
 # Flowchart Kalkulator Sederhana
-![Foto](
+![Foto](https://raw.githubusercontent.com/rich-pro12/foto1/af270d5c8cf161c4da046911f69633043ed7480e/Screenshot%202024-10-29%20232321.png)
+
+# Program Pembuatan Kalkulator Sederhana
+
+# Fungsi untuk melakukan operasi aritmatika
+``` Pyhton
+def kalkulator(angka1, angka2, operator):
+    if operator == '+':
+        return angka1 + angka2
+    elif operator == '-':
+        return angka1 - angka2
+    elif operator == '*':
+        return angka1 * angka2
+    elif operator == '/':
+        if angka2 != 0:
+            return angka1 / angka2
+        else:
+            return "Error: Pembagian dengan nol tidak diperbolehkan."
+    else:
+        return "Error: Operator tidak valid."
+```
+
+# Meminta input dari pengguna
+``` Pyhton
+try:
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ")
+
+    # Menghitung dan menampilkan hasil
+    hasil = kalkulator(angka1, angka2, operator)
+    print(f"Hasil: {hasil}")
+
+except ValueError:
+    print("Error: Masukkan nilai yang valid.")
+```
+# Gambar Hasil Eksekusinya 
+![Foto]()
 
