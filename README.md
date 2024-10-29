@@ -45,4 +45,8 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
 ```
 
 # Gambar Hasil Eksekusi
-![foto](
+![foto](https://raw.githubusercontent.com/rich-pro12/foto1/b1a6784c360da5e777d3ba1d69b192d1379f21cc/Screenshot%202024-10-30%20000629.png)
+
+# Flowchart Kalkulator Sederhana
+![Foto](
+
