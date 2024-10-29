@@ -85,5 +85,5 @@ except ValueError:
     print("Error: Masukkan nilai yang valid.")
 ```
 # Gambar Hasil Eksekusinya 
-![Foto]()
+![Foto](https://raw.githubusercontent.com/rich-pro12/foto1/782fea10be956d978fc04a621251c619c5aad7ed/Screenshot%202024-10-30%20001256.png)
 
