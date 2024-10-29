@@ -5,7 +5,7 @@ Teknik Informatika
 312410451
 
 # Gambar Flowchart Tiket Bioskop
-![foto1](
+![foto1](https://raw.githubusercontent.com/rich-pro12/foto1/9173cf4e8461fae3991c788dbcd13d22888dade7/richie.png)
 
 # Program untuk menghitung harga tiket bioskop
 
@@ -43,3 +43,6 @@ if status_member == "ya":
 ``` Pyhton
 print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
 ```
+
+# Gambar Hasil Eksekusi
+![foto](
